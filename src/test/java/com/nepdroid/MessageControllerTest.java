@@ -23,7 +23,7 @@ class MessageControllerTest {
 	 @DisplayName("test Message REST API ")
 	 void testMessage() {
 	  String message = this.restTemplate.getForObject("/hello", String.class);
-	  assertEquals("Hello World", message);
+	  assertEquals("Hello World  2", message);
 	 }
 	 
 	 @Test
